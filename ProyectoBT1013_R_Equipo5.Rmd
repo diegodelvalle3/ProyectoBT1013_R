@@ -28,3 +28,74 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+# Título
+
+**FALTA**
+
+---
+
+# Introducción
+
+A finales de 2019 en la ciudad de Wuhan, China, aparecería un nuevo agente viral del género Betacoronavirus, el coronavirus de tipo 2 causante del síndrome respiratorio agudo severo, abreviado por sus siglas en ingles como SARS-CoV-2. Este agente causaría la enfermedad por coronavirus 2019, mejor conocida como COVID-19. 
+
+A medida que el virus se propago por diversos grupos de humanos, la interacción entre su tasa de error en la replicación, propia de las ARN polimerasas (enzimas responsables de la transcripción), y la presión selectiva impuesta por la inmunidad preexistente propicio la aparición de diversas variantes. Estas variantes han demostrado cambios significativos en sus fenotipos, desde un aumento en su transmisibilidad hasta una evasión parcial de la respuesta inmune del huésped. 
+
+El presente reporte tiene el objetivo de realizar un análisis detallado de la trayectoria evolutiva de la variante ómicron, también conocida por el identificador de linaje PANGO como B.1.1.529.1, examinando sus mutaciones características a lo largo de los años. A través de este estudio, se busca identificar y documentar las sustituciones de nucleótidos y aminoácidos mas relevantes en regiones criticas del genoma viral. Mediante este análisis, no solo se pretende observar la acumulación de cambios genéticos en el tiempo, sino también comprender como estas variaciones le han otorgado ventajas adaptativas al virus, permitiendo su supervivencia y presencia entre la población humana.
+
+---
+
+# Contexto
+
+El genoma del SARS-CoV-2 codifica 11 marcos de lectura abiertos, ORF por sus siglas en inglés, funcionales principales. Estos se dividen en genes para proteínas no estructurales, estructurales y accesorias. A continuación, se presenta un análisis detallado de los 11 genes previamente mencionados. 
+
+En primer lugar, encontramos ORF1a y ORF1b. Estos son genes de proteínas no estructurales, se ubican al inicio del genoma, conforman dos terceras partes de este. Mediante un cambio en el marco de lectura ribosomal, se traducen en dos poliproteínas que posteriormente se cortan en 16 proteínas no estructurales, esenciales para la transcripción y replicación viral. 
+
+Los siguientes son genes de proteínas estructurales.
+
+El gen S, también conocido como Spike o espícula, codifica la característica proteína en forma de espiga presente en la superficie del virus. Esta se une al receptor celular humano para permitir la entrada del virus. Es el blanco principal de los anticuerpos neutralizantes y, por lo tanto, donde ocurre la mayor cantidad de mutaciones para evadir al sistema inmune. 
+
+El gen E, conocido como envoltura, codifica la proteína estructural más pequeña de todo el virus. Es fundamental para el ensamblaje, la gemación y liberación de nuevas partículas virales. Sin esta proteína, el virus no podría propagarse de forma eficiente. 
+
+El gen M, conocido como membrana, codifica la proteína estructural más abundante, la cual determina la forma de la envoltura viral. Coordina interacciones entre los genes S, E y N, con el objetivo de asegurar que el virión se ensamble correctamente.
+
+El gen N, conocido como nucleocápside, codifica la única proteína que se une directamente con el ARN. Envuelve el ARN en forma de hélice, protegiéndolo dentro de una envoltura lipídica. También participa activamente en la regulación de la transcripción viral y puede interferir con la respuesta inmune innata del huésped. 
+
+Finalmente, encontramos los siguientes genes de proteínas accesorias. Estos genes se intercalan entre los genes estructurales y ayudan al virus a evadir o modular la respuesta inmune del cuerpo.
+
+El gen ORF3 codifica la proteína accesoria mas grande y expresada. Actúa como un canal iónico que altera la homeostasis de las membranas de la célula. Facilita la liberación del virus de la célula, induce la apoptosis (muerte celular programada) y promueve una respuesta inflamatoria agresiva. Clave en la severidad de la enfermedad. 
+
+El gen ORF6 codifica las proteínas más potentes en la evasión de la respuesta inmune. Se localiza en la membrana del retículo endoplasmático y bloquea el tráfico de proteínas clave del sistema inmune desde el citoplasma hacia el núcleo. Al bloquear esta ruta, impide que la célula infectada “avise” a otras células de la presencia del virus. 
+
+El gen ORF7a codifica una proteína que interactúa con otras proteínas del huésped. Reduce la presentación de antígenos, forma en la que la célula infectada “muestra” al virus los linfocitos T, y también contribuye a la evasión del sistema inmune. 
+
+El gen ORF7b codifica una proteína pequeña y poco comprendida, localizada en el aparato de Golgi. Suele ser estudiado junto con el gen ORF7a debido a que se superponen parcialmente en el genoma. Se cree que contribuye en la formación de vesículas y al ambiente celular óptimo para la replicación viral. 
+
+El gen ORF8 codifica una proteína secretada que puede interactuar con el complejo mayor de histocompatibilidad (MHC-I) en la superficie celular. Modula la respuesta inmune al reducir la capacidad de detección del virus por parte de los linfocitos T citotóxicos. 
+
+El gen ORF10 es el gen mas pequeño. Su expresión es muy baja, y durante mucho tiempo, se debatió si era un gen real. Estudios sugieren que interactúa con la maquinaria de degradación de proteínas del huésped, pero su papel exacto sigue siendo objeto de investigación activa. Muchos investigadores consideran que no es indispensable para la replicación del virus. 
+
+
+---
+
+# Hipótesis
+
+A diferencia de las proteínas accesorias (como ORF8), la región codificante de la proteína Spike presenta una tasa de sustitución no sinónima significativamente mayor, lo que sugiere que la presión selectiva del hospedador humano actúa predominantemente sobre las proteínas de superficie para optimizar la entrada viral, mientras que las proteínas estructurales internas mantienen una mayor conservación evolutiva para preservar la integridad mecánica del virión.
+
+---
+
+# Referencias
+
+Chávez, R. A. R., Fili, M., Han, C., Rahman, S. A., Bicar, I. G. L., Gregory, S., Helverson, A., Hu, G., Darbro, B. W., Das, J., Brown, G. D., & Haim, H. (2024). Mapping the Evolutionary Space of SARS-CoV-2 Variants to Anticipate Emergence of Subvariants Resistant to COVID-19 Therapeutics. PLoS Computational Biology, 20(6), e1012215. https://doi.org/10.1371/journal.pcbi.1012215
+
+European Society of Medicine. (2026, 16 marzo). Molecular Evolution of SARS-CoV-2 Spike Protein Insights - European Society of Medicine. European Society Of Medicine -. https://esmed.org/molecular-evolution-of-sars-cov-2-spike-protein-insights/
+
+Gupta, S., Gupta, D., & Bhatnagar, S. (2024). Analysis of SARS-CoV-2 genome evolutionary patterns. Microbiology Spectrum, 12(2), e0265423. https://doi.org/10.1128/spectrum.02654-23
+
+Wright, D. W., Harvey, W. T., Hughes, J., Cox, M., Peacock, T. P., Colquhoun, R., Jackson, B., Orton, R., Nielsen, M., Hsu, N. S., Harrison, E. M., De Silva, T. I., Rambaut, A., Peacock, S. J., Robertson, D. L., & Carabelli, A. M. (2022). Tracking SARS-CoV-2 Mutations & Variants Through the COG-UK-Mutation Explorer. Virus Evolution, 8(1), veac023. https://doi.org/10.1093/ve/veac023
+
+Jungreis, I., Sealfon, R., & Kellis, M. (2021). SARS-CoV-2 gene content and COVID-19 mutation impact by comparing 44 Sarbecovirus genomes. Nature Communications, 12(1), 2642. https://doi.org/10.1038/s41467-021-22905-7
+
+Vinjamuri, S., Li, L., & Bouvier, M. (2022). SARS-CoV-2 ORF8: One protein, seemingly one structure, and many functions. Frontiers In Immunology, 13, 1035559. https://doi.org/10.3389/fimmu.2022.1035559
